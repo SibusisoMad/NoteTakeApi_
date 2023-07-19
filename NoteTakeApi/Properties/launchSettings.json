@@ -1,0 +1,42 @@
+﻿{
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:45427",
+      "sslPort": 44368
+    }
+  },
+  "profiles": {
+    "NoteTakeApi": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "https://localhost:7206;http://localhost:5206",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  },
+  "AzureAd": {
+    "Instance": "https://login.microsoftonline.com/",
+    "Domain": "smadlobaoutlook.onmicrosoft.com",
+    "ClientId": "becb61df-0cab-47a7-a151-571ba10b2c0c",
+    "ClientSecret": "B6o8Q~XO~JyPS6dnLaMYL8yLoUG7CWzJ5VWnpbTT",
+    "TenantId": "3b382a2a-828a-4060-a500-da4188f1ea44",
+    "CallbackPath": "/signin-oidc"
+  },
+  "Graph": {
+    "BaseUrl": "https://graph.microsoft.com/v1.0/"
+  }
+}
