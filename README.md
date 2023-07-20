@@ -9,5 +9,5 @@ Steps to Run the Project:
 
 Clone the Code or download Zip
 open preoject with Visual Studio 2022 and select NoteTakeApi project as startup project to run.
-To test the ApI we may Postman Or swagger to test Ednpoints
+To test the ApI we may use Postman Or swagger to test Ednpoints
 ![web-app-calls-microsoft-apis](https://github.com/SibusisoMad/NoteTakeApi_/assets/23137468/e920b56d-7dfc-400d-86ae-93e9a05cf8f1)
